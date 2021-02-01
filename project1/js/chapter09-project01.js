@@ -9,7 +9,7 @@ window.onload = function() {
             });
 
             element.addEventListener("blur", function() {
-                element.classList.toggle("highlight");
+                element.classList.toggle("highlight")  ;
             });
         })(i);
     }
