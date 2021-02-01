@@ -10,7 +10,7 @@ function theDomHasLoaded(e) {
     var big = n[0];
     var Cap = n[1];
     div.onclick = function(event) {
-        var img = event.target.closest('img');
+        var img = event.target.closest('img'); 
 
         if (!img) return;
 
